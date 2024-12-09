@@ -1,0 +1,233 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+#logo{
+    float: left;
+    width: 140px;
+    height: 90px;
+   /* margin-right: 600px;
+    margin-right: 1200px;*/ 
+    margin-left: -200px;    
+}
+header{
+    width: 100%;
+    background-color: #00202b;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+#mapa{
+    width: 60px;
+    height: 65px;
+    
+  /* margin-left: 0px;
+    margin-right: 600px; 
+    margin-bottom: 12.5px;*/
+}
+#divBusca{
+   /* margin-left: 550px;
+    margin-bottom: 50px; */
+    background-color:#2F4F4F;
+    border:solid 1px;
+    border-radius:15px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+  /*  margin-bottom: -0px; */
+}
+#txtBusca{
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:460px;
+}
+#btnBusca{
+    width: 25px;
+    height: 25px;
+}
+#direito{
+    margin-right: -190px;
+}
+#esquerdo{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin-right: 600px;
+}
+#tele{
+    width: 50px;
+    height: 50px;
+}
+#icon{
+    width: 85px;
+    height: 60px;
+    margin-left: 5px;
+}
+#compra{
+    width: 55px;
+    height: 50px;
+}
+.top{
+    font-size: 22px;
+    font-family: Arial;
+    padding-right: 16px;
+    padding-left: 16px;
+    color: black;
+    /*border: solid 2.5px black;*/
+}
+.top > a:hover{
+    color:#9c9c9c;       
+}
+#navegacao {
+    background-color: #e0e0e0;
+    height: 50px;
+    text-decoration: none;
+}
+#topo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.nav{
+    text-decoration: none;
+    color: black;
+}
+#ativ{
+    width: 90px;
+    text-align: center;
+    background-color: #9c9c9c;
+}
+#ativh{
+    width: 100px;
+    text-align: center;
+    background-color: #9c9c9c;
+}
+li{
+    list-style: none;
+    color:black;
+    text-decoration: none;
+    
+}
+.product-card {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.product-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.product-info {
+    padding: 20px;
+} 
+.product-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.product-description {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+.product-price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #2d9cdb;
+    margin-bottom: 15px;
+}
+.buy-button {
+    background-color: #2d9cdb;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.buy-button:hover {
+    background-color: #1a7fa7;
+}
+main{
+    display: block;
+}
+.grupinho{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.carrossel{
+    width: 1600px;
+    height: 830px;
+}
+.adocao{
+    color: black;
+    text-decoration: none;
+}
+.slides{
+    margin-top:30px;
+    margin-bottom: 40px;
+}
+@media screen and (max-width: 480px) {
+    .slides{
+        display: none;
+    }
+    #logo {
+        padding-right: 0px;
+        padding-left: -310px;
+        margin-right: -150px;
+        margin-left: -319px;
+        margin-bottom: 140px;
+        width: 150px;
+        height: 120px;
+    }
+    header {
+        padding-top: 44px;
+        height: 200px;
+    }
+    #divBusca {
+        width: 400px;
+        padding-right: 10px;
+    }
+    #esquerdo {
+        margin-right: -194px;
+        margin-left: 20px;
+    }
+    #tele, #icon, #compra, #mapa {
+        padding-left: 10px;
+        padding-right: 0px;
+        margin-bottom: -100px;
+        margin-right: 0px;
+        margin-left: 0px;
+        padding: 0px;
+        width: 54px;
+        height: 50px;
+        justify-content: center;
+    }
+    .nav{
+        text-align: center;
+    }
+    .product-card{
+        margin-bottom: 20px;
+        
+    }
+    .grupinho{ 
+        flex-wrap: wrap;
+        margin-bottom: -65px;
+        margin-top: 20px;
+    }
+}

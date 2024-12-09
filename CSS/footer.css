@@ -1,0 +1,134 @@
+@media screen and (min-width: 480px) {
+    footer{
+        background-color: #f2f2f2;
+        margin-top: 80px;
+        height: 100%;
+        width: 100%;
+        padding-top: 15px;
+    }
+    footer > p{
+        color: white;
+        text-align: center;
+        background-color: #f2f2f2;
+        font-size: 30px;
+        display: none;
+    }
+    footer:hover > p{
+        display: block;
+        background-color: black;
+    }
+    .topics{
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    .topics> li{
+        margin-top: 10px;
+        text-align: left;
+    }
+    #sobre{
+        float: left;
+        margin-left: 25%;
+    }
+    .list{
+        text-decoration: none;
+        color: rgb(54, 54, 54);
+    }
+    #topicos{
+        padding-bottom: 30px;
+        background-color: #f2f2f2;
+    }
+    #notific{
+        float: right;
+        margin-right: 25%;
+    }
+    #email{
+        height: 30px;
+        width: 250px;
+    }
+    .listas{
+        margin-left: 40px;
+        /*margin: 100px;
+        margin-top: 0px;
+        margin-bottom: 0px;*/
+    }
+    #WhatsApp,#insta,#twitter,#bsky{
+        width: 50px;
+        height: 50px;
+    }
+    #tituRede{
+        margin-top: 10px; 
+    }
+    #ajuda{
+        float: left;
+        margin-right: 30px;
+    }
+    .titulostopicos{
+        text-align: left;
+    }
+    ul{
+        padding-left: 0px;
+    }
+}
+@media screen and (max-width: 480px) {
+    footer{
+        background-color: #f2f2f2;
+        margin-top: 80px;
+        height: 100%;
+        width: 100%;
+        padding-top: 15px;
+    }
+    footer > p{
+        display: none;
+    }
+    .topics{
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    .topics> li{
+        margin-top: 10px;
+        text-align: left;
+    }
+    #sobre{
+        float: left;
+        margin-left: 25%;
+    }
+    .list{
+        text-decoration: none;
+        color: rgb(54, 54, 54);
+    }
+    #topicos{
+        padding-bottom: 30px;
+        background-color: #f2f2f2;
+    }
+    #notific{
+        float: right;
+        margin-right: 25%;
+    }
+    #email{
+        height: 30px;
+        width: 250px;
+    }
+    .listas{
+        margin-left: 40px;
+        /*margin: 100px;
+        margin-top: 0px;
+        margin-bottom: 0px;*/
+    }
+    #WhatsApp,#insta,#twitter,#bsky{
+        width: 50px;
+        height: 50px;
+    }
+    #tituRede{
+        margin-top: 10px; 
+    }
+    #ajuda{
+        float: left;
+        margin-right: 30px;
+    }
+    .titulostopicos{
+        text-align: left;
+    }
+    ul{
+        padding-left: 0px;
+    }
+}
